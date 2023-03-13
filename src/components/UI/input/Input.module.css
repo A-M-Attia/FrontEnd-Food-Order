@@ -1,0 +1,19 @@
+
+
+.inputStyle{
+    display: flex;
+/* justify-content: center; */
+padding: 5px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+color: black;
+   
+}
+
+/* .inputStyle input{
+justify-content: center;
+color: black;
+
+} */

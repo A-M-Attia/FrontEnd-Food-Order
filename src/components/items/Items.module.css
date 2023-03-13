@@ -1,0 +1,21 @@
+.items{
+    display: flex;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: white;
+    width: 70vw;
+    min-height: 15vh;
+    padding: 5px;
+    margin: auto;
+    /* flex-direction: column; */
+    justify-content: center;
+
+}
+.items__control{
+    width: 95%;
+    /* padding: 10px; */
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

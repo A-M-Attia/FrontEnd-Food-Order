@@ -1,0 +1,49 @@
+form{
+    overflow: auto;
+}
+form input{
+    padding: 5px;
+}
+.confirm{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.control{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.confirm button {
+    all: unset;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.confirm button:hover{
+    opacity: 0.9 !important;
+}
+
+.invalid label{
+    color: red; 
+}
+
+.invalid input{
+    
+    border-color: rgb(120, 120, 158);
+    background-color:  #ffbff1;
+    
+    
+}

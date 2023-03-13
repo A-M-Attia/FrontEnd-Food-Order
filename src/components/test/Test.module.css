@@ -1,0 +1,15 @@
+.test{
+    width: 150px ;
+    /* margin-top: 20px; */
+    position: fixed;
+    top: 53%;
+    right: 5px;
+  }
+
+  @media only screen and (max-width: 650px){
+    .test { width: 100px !important;
+      height: 50px;
+      padding: 2px;
+      /* margin-right: 0; */
+   }
+  }

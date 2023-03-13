@@ -1,0 +1,44 @@
+.overlay{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px dotted green; */
+    align-items: center;
+    /* position: relative; */
+    /* border: 2px solid yellow; */
+    
+    
+}
+.Overlay__backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.Overlay__frontdrop{
+
+    position: relative !important;
+    bottom: 10vh;
+    z-index: 2;
+    background-color: white;
+    width: 50vw;
+    height: 25vh;
+    padding: 10px;
+    border: 2px solid rgb(46, 45, 45);
+    box-shadow: 2px 2px 5px rgb(158, 154, 154), -2px -2px 5px rgb(158, 154, 154);
+    border-radius: 15px;
+    text-align: center;
+    overflow: auto;
+    line-height: 1.3rem;
+    background-color: rgb(46, 45, 45);
+    color:white;
+    /* border: 2px solid yellow; */
+
+}
+.Overlay__frontdrop p{
+font-size: .8rem;
+margin-top: 5px;
+}

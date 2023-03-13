@@ -1,0 +1,36 @@
+.modal__backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .9;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+.modal__frontdrop{
+    position: absolute ;
+   top:30vh;
+   left: 25vw;
+    z-index: 200;
+    background-color: white;
+    color:black !important;
+    width: 50vw;
+    min-height: 25vh;
+    padding: 10px;
+    border: 2px solid rgb(104, 93, 93);
+    box-shadow: 2px 2px 5px rgb(158, 154, 154), -2px -2px 5px rgb(158, 154, 154);
+    border-radius: 15px;
+    text-align: center;
+    overflow: auto;
+    line-height: 1.3rem;
+    
+    /* border: 2px solid yellow; */
+}
+
+.modal.contact{
+
+    border: 2px solid red ;
+    background-color: black;
+}

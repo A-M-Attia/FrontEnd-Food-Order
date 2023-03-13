@@ -1,0 +1,138 @@
+.shoppingCard{
+    display: flex;
+    flex-direction: column;
+    max-height: 60vh;
+    overflow: auto;
+}
+
+.cartItem{
+    border-bottom: 2px solid;
+    border-color: rgb(201, 172, 172);
+    display: flex;
+    justify-content: space-between;
+}
+.cartItem ul{
+/* border: 2px solid red; */
+min-height: 10%;
+list-style: none;
+flex: 1;
+padding: 5px;
+text-align: left;
+}
+
+.cartItem ul li:nth-child(1){
+    font-weight: bolder;
+    }
+
+.priceAndQ div:nth-child(1){
+      font-weight: bold;
+     color:red
+        }
+        .priceAndQ div:nth-child(2){
+            font-weight: bold;
+            background-color: rgb(243, 236, 236);
+            border-radius: 5px;
+            width: 35px;
+            text-align: center;
+           
+              }
+        .priceAndQ div:nth-child(1){
+      font-weight: bold;
+     color:red
+        }
+        .priceAndQ{
+            display: flex;
+            /* border: 2px solid; */
+            width: 50%;
+            justify-content: space-between;
+        }
+.shoppingCard >div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 2px solid black; */
+    margin-top: 10px;
+}
+
+.shoppingCard >div:nth-child(2) span{
+font-size: 20px;
+    font-weight: bolder;
+}
+
+.shoppingCard >div:nth-child(2) span:nth-child(2){
+
+    background-color: rgb(248, 236, 214);
+    padding: 5px;
+    border-radius: 15px;
+}
+.btnDiv{
+    display: flex;
+    justify-content:end;
+    margin-top: 5px;
+   
+}
+
+.btnDiv button{
+    all: unset;
+    background-color: rgb(204, 63, 11);
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 20px;
+     padding: 8px;
+    width: 10%;
+    cursor: pointer;
+}
+.btnDiv button:hover{
+    opacity: .9;
+}
+
+.btnDiv button:nth-child(2){
+    background-color: rgb(243, 239, 239);
+    color: orangered;
+   margin-left: 15px;
+
+}
+.btnDiv button:nth-child(2):hover{
+    background-color:  orangered;
+    color: white;
+
+}
+
+.contextControl{
+   flex: 1;
+    /* border: 2px solid yellow; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: end;
+    
+}
+/* .inputStyle {
+flex: 1;
+width: 50%;
+ border: 2px solid red; 
+
+display: flex;
+justify-content: center;
+align-items:center;
+} */
+/* .inputStyle Input{
+    width: 35px;
+    text-align: center;
+    margin-left: 10px;
+} */
+
+.btns{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    justify-content: space-around;
+    
+    /* border: 2px solid ; */
+    padding: 5px;
+}
+
+.btns button{
+    width: 30%;
+    cursor: pointer;
+   
+}
